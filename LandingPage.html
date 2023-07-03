@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+</head>
+
+<style>
+    body {
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+    }
+
+    header {
+        background-color: rgba(37, 173, 236, 0.432);
+        padding-left: 2%;
+        padding-right: 10%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .desenho {
+        padding-top: 1em;
+        height: 5em;
+    }
+
+    .logo>div>h1 {
+        font-family: cursive;
+        font-size: xx-large;
+        margin-bottom: 0px;
+    }
+
+    .logo>div>h2 {
+        margin-top: 0px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .agende {
+        text-align: end;
+        margin-top: 3%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+    }
+
+    .text {
+        margin-bottom: 0px;
+    }
+
+    .tel {
+        margin-top: 0px;
+    }
+
+    nav {
+        text-align: center;
+        margin: 2%;
+    }
+
+    nav>a {
+        border-top: 1px solid rgba(0, 0, 0, 0.493);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+        color: rgba(0, 0, 0, 0.493);
+        margin-left: 3%;
+        padding: 0.5%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        font-style: italic;
+        text-decoration: none;
+    }
+
+    footer {
+        background-color: rgba(37, 173, 236, 0.432);
+    }
+
+    footer>div {
+        display: flex;
+        justify-content: space-between;
+        padding: 1% 5%;
+    }
+
+    footer>div>div>img {
+        height: 3em;
+    }
+
+    footer>div>div {
+        display: flex;
+        align-items: center;
+    }
+
+    footer>div>div>span {
+        margin-left: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .tf1 {
+        text-align: center;
+        font-size: larger;
+        font-family: cursive;
+    }
+
+    .tf2 {
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    main>div>h2{
+        margin-bottom: 0px;
+        color:rgba(0, 0, 0, 0.493)
+    }
+
+    main>div{
+        margin-top: 0px;
+        border-bottom: 1px solid rgba(37, 173, 236, 0.432);
+    }
+
+    .dentista{
+        width: 100%;
+        opacity: 70%;
+    }
+</style>
+
+<body>
+    <header>
+        <section class="logo">
+            <div>
+                <img class="desenho" src="desenho_implante.png" alt="desenho_implante">
+            </div>
+            <div>
+                <h1>Odonto&Art</h1>
+                <h2>Dra Luzia Helena Ribeiro</h2>
+            </div>
+        </section>
+        <section class="agende">
+            <p class="text">Agende sua avaliação!</p>
+            <p class="tel">(32) 99112-7700</p>
+        </section>
+    </header>
+    <img class="dentista" src="dentista.jpg" alt="dentista">
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#espaco">ESPAÇO</a>
+        <a href="#tratamentos">TRATAMENTOS</a>
+        <a href="#pacientes">PACIENTES</a>
+        <a href="#localizacao">LOCALIZAÇÃO</a>
+    </nav>
+    <main>
+        <div id="home">
+            <h2>Home</h2>
+        </div>
+
+        <div id="espaco">
+            <h2>Espaço</h2>
+        </div>
+
+        <div id="tratamentos">
+            <h2>Tratamentos</h2>
+        </div>
+
+        <div id="pacientes">
+            <h2>Pacientes</h2>
+        </div>
+
+        <div id="localização">
+            <h2>Localização</h2>
+            <div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="tf1">Mude a sua vida valorizando seu sorriso!</p>
+        <p class="tf2">Agende sua avaliação!</p>
+        <div>
+            <div><img src="whatsapp.png" alt="whatsapp"> <span>(32) 99112-7700</span></div>
+            <div><img src="telefone.png" alt="telefone"> <span>(32) 3226-2325</span></div>
+            <div><img src="facebook.png" alt="facebook"> <span>Odonto&Art</span></div>
+            <div><img src="instagram.png" alt="instagram"> <span>@odontoeart</span></div>
+            <div><img src="email.webp" alt="email"> <span>luribeiro.odonto@gmail.com</span></div>
+        </div>
+    </footer>
+</body>
+
+</html>
